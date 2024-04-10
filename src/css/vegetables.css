@@ -1,27 +1,3 @@
-ul,
-li {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 .organic-vegetables {
   background-color: #7a3145;
 }
@@ -121,8 +97,8 @@ p {
   }
 
   .vegetable-item {
+    gap: 10px;
     padding: 32px 30px;
-    gap: 10;
   }
 
   .vegetable-item-title {
