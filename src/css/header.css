@@ -8,6 +8,21 @@
   top: 20px;
 }
 
+.icon-logo {
+  height: 16px;
+  width: 16px;
+}
+
+.icon-logo-text {
+  width: 148px;
+  height: 12px;
+}
+
+.icom-mobile-menu {
+  width: 32px;
+  height: 32px;
+}
+
 .header-navigation {
   padding-right: 20px;
   width: 100%;
@@ -52,6 +67,32 @@
   .container {
     max-width: 1279px;
   }
+  .header-navigation {
+    padding-right: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-logo {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+  }
+
+  .icon-logo {
+    height: 18px;
+    width: 18px;
+  }
+
+  .icon-logo-text {
+    width: 168px;
+    height: 15px;
+  }
+
+  .icom-mobile-menu {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -80,7 +121,7 @@
   .header-menu-list {
     display: flex;
     gap: 8px;
-    margin-left: 397px;
+    /* margin-left: 397px; */
   }
   .header-menu-item {
     font-weight: 500;
