@@ -1,0 +1,23 @@
+.container {
+  max-width: 767px;
+}
+
+.header-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100%;
+}
+
+.header-navigation {
+  padding-right: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
