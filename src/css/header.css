@@ -3,8 +3,6 @@
 }
 
 .header-container {
-  /* position: absolute;
-  left: 20px; */
   width: 100%;
   position: fixed;
   top: 20px;
@@ -57,11 +55,6 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .container {
-    min-width: 1280px;
-    padding: 0 auto;
-  }
-
   .header {
     width: 100%;
     position: fixed;
@@ -74,23 +67,7 @@
     overflow: auto;
   }
   .header-container {
-    /* position: fixed;
-    top: 20px;
-    margin-left: auto;
-    margin-right: auto; */
-
-    /* display: flex; */
-
-    /* z-index: 9; */
   }
-  /* .header-container {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 100%;
-    margin: 0 auto;
-    z-index: 9;
-  } */
 
   .icom-mobile-menu {
     display: none;
