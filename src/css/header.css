@@ -3,10 +3,11 @@
 }
 
 .header-container {
-  position: absolute;
-  top: 20px;
-  left: 20px;
+  /* position: absolute;
+  left: 20px; */
   width: 100%;
+  position: fixed;
+  top: 20px;
 }
 
 .header-navigation {
@@ -20,4 +21,125 @@
   display: flex;
   gap: 2px;
   align-items: center;
+}
+
+.header-menu-wrap {
+  display: none;
+}
+
+/* .open-menu-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+} */
+
+/* ===== FROM BASE ===== */
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 100px;
+  }
+}
+/* ===== END FROM BASE ===== */
+
+/* ======= MY PART ======== */
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 1279px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    min-width: 1280px;
+    padding: 0 auto;
+  }
+
+  .header {
+    width: 100%;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+  }
+  .header-container {
+    /* position: fixed;
+    top: 20px;
+    margin-left: auto;
+    margin-right: auto; */
+
+    /* display: flex; */
+
+    /* z-index: 9; */
+  }
+  /* .header-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 9;
+  } */
+
+  .icom-mobile-menu {
+    display: none;
+  }
+
+  .header-menu-wrap {
+    display: flex;
+    gap: 20px;
+  }
+  .header-menu-list {
+    display: flex;
+    gap: 8px;
+    margin-left: 397px;
+  }
+  .header-menu-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+
+    display: block;
+
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    border-radius: 12px;
+    padding: 12px;
+  }
+
+  .header-menu-link {
+  }
+
+  .header-shop-btn {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+
+    border-radius: 30px;
+    padding: 16px 32px;
+
+    background: #7a3145;
+  }
+
+  .header-shop-now {
+  }
+
+  /*  */
+  /*  */
 }
