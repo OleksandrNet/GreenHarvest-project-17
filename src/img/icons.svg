@@ -30,8 +30,16 @@
   <path d="M130.311 12C126.972 12 124.961 10.384 124.961 7.984H127.834C127.798 9.344 128.803 10.096 130.311 10.096C131.909 10.096 132.662 9.536 132.662 8.704C132.662 7.872 132.016 7.52 129.718 6.96C127.618 6.448 125.32 5.84 125.32 3.44C125.32 1.536 127.187 0 130.131 0C133.165 0 135.104 1.52 135.104 3.664H132.321C132.303 2.528 131.442 1.904 130.131 1.904C128.857 1.904 128.013 2.48 128.013 3.248C128.013 4.16 128.713 4.448 130.544 4.912C133.255 5.584 135.445 5.856 135.445 8.464C135.445 10.56 133.309 12 130.311 12Z" fill="#FBFBFB" />
   <path d="M139.537 11.84V2.064H135.57V0.16H146V2.064H142.051V11.84H139.537Z" fill="#FBFBFB" />
 </svg>
-
-
 <!--  -->
+<symbol id="menu-close-btn" viewBox="0 0 32 32">
+<path fill="none" stroke="#fbfbfb" style="stroke: var(--color1, #fbfbfb)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M24 8l-16 16"></path>
+<path fill="none" stroke="#fbfbfb" style="stroke: var(--color1, #fbfbfb)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M8 8l16 16"></path>
+</symbol>
+
+
+<symbol id="icon-close-btn2" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M24 8l-16 16"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M8 8l16 16"></path>
+</symbol>
   </defs>
 </svg>
