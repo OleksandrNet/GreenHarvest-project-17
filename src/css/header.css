@@ -1,0 +1,131 @@
+.container {
+}
+
+.header {
+  background-color: #576f35;
+  /* width: 100%; */
+  /* position: absolute; */
+  top: 20px;
+  left: 0;
+  /* display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto; */
+}
+
+.header-container {
+}
+
+.icon-logo {
+  height: 16px;
+  width: 16px;
+}
+
+.icon-logo-text {
+  width: 148px;
+  height: 12px;
+}
+
+.icom-mobile-menu {
+  width: 32px;
+  height: 32px;
+}
+
+.header-navigation {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+.header-menu-wrap {
+  display: none;
+}
+
+/* ========== MEDIA =========== */
+@media only screen and (min-width: 768px) {
+  .container {
+    /* max-width: 1279px; */
+  }
+
+  .header-navigation {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-logo {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+  }
+
+  .icon-logo {
+    height: 18px;
+    width: 18px;
+  }
+
+  .icon-logo-text {
+    width: 168px;
+    height: 15px;
+  }
+
+  .icom-mobile-menu {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .icom-mobile-menu {
+    display: none;
+  }
+
+  .header-menu-wrap {
+    display: flex;
+    gap: 20px;
+  }
+  .header-menu-list {
+    display: flex;
+    gap: 8px;
+  }
+  .header-menu-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    display: block;
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    border-radius: 12px;
+    padding: 12px;
+  }
+
+  .header-menu-link {
+  }
+
+  .header-shop-btn {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    border-radius: 30px;
+    padding: 16px 32px;
+    background: #7a3145;
+  }
+
+  .header-shop-now {
+  }
+}
