@@ -1,10 +1,10 @@
 .container {
-  max-width: 767px;
 }
 
 .header {
-  width: 100%;
-  position: absolute;
+  background-color: #576f35;
+  /* width: 100%; */
+  /* position: absolute; */
   top: 20px;
   left: 0;
   /* display: flex;
@@ -15,9 +15,6 @@
 }
 
 .header-container {
-  width: 100%;
-
-  top: 20px;
 }
 
 .icon-logo {
@@ -36,7 +33,8 @@
 }
 
 .header-navigation {
-  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -55,10 +53,12 @@
 /* ========== MEDIA =========== */
 @media only screen and (min-width: 768px) {
   .container {
-    max-width: 1279px;
+    /* max-width: 1279px; */
   }
+
   .header-navigation {
-    padding-right: 20px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -105,9 +105,7 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: #fbfbfb;
-
     display: block;
-
     border: 1px solid rgba(251, 251, 251, 0.4);
     border-radius: 12px;
     padding: 12px;
@@ -123,15 +121,11 @@
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
-
     border-radius: 30px;
     padding: 16px 32px;
-
     background: #7a3145;
   }
 
   .header-shop-now {
   }
-
-  /*  */
 }
