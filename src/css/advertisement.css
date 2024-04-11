@@ -8,7 +8,6 @@
 }
 
 .advertisement-text {
-  font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
   font-size: 48px;
   line-height: 50px;
@@ -25,7 +24,7 @@
 
 .advertisement-text-sale {
   color: #fbfbfb;
-  font-family: 'Inter Tight', sans-serif;
+
   font-weight: 600;
   font-size: 48px;
   line-height: 50px;
