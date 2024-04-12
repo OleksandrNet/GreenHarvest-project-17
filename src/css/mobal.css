@@ -1,6 +1,7 @@
 .mobile-menu {
   position: fixed;
   top: 0;
+  right: 0;
   background-color: #7a3145;
   width: 375px;
   height: 100vh;
