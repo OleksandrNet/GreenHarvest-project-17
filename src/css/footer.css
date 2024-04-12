@@ -15,6 +15,8 @@
   margin-bottom: 14px;
 }
 .footer-logo {
+    display: flex;
+    gap: 4px;
 }
 .footer-logo-icon {
   height: 16px;
@@ -23,6 +25,7 @@
 .footer-logo-icon-text {
   width: 148px;
   height: 12px;
+  align-self: center;
 }
 .footer-main-text {
   font-family: 'Inter', sans-serif;
@@ -98,6 +101,9 @@
     display: flex;
     justify-content: space-between;
   }
+  .footer-logo {
+  gap: 8px;
+  }
   .footer-logo-container {
     max-width: 265px;
   }
@@ -136,6 +142,9 @@
   .footer-container {
     max-width: 1280px;
     padding: 50px 100px;
+  }
+  .footer-logo {
+  gap: 12px;
   }
   .footer-mane-info-container {
     display: flex;
