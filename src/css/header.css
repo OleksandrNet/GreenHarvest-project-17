@@ -86,6 +86,7 @@
   .header-menu-wrap {
     display: flex;
     gap: 20px;
+    align-items: center;
   }
   .header-menu-list {
     display: flex;
