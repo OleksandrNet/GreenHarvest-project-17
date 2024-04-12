@@ -120,6 +120,22 @@
     width: 351px;
   }
 
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(20, 20, 20, 0.4);
+    z-index: 9;
+    transition: opacity 0.3s ease;
+    display: none;
+  }
+
+  .backdrop.is-open {
+    display: block;
+  }
+
   .mobile-menu-link {
     font-size: 16px;
     line-height: 1.25;
@@ -164,24 +180,6 @@
   .mobile-shop-now:focus {
     background-color: #7a3145;
     color: #fbfbfb;
-  }
-
-  .backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(20, 20, 20, 0.4);
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-  }
-
-  .backdrop.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
   }
 }
 
