@@ -107,6 +107,25 @@
     padding: 12px;
   }
 
+  .header-menu-item:hover {
+    background-color: #fbfbfb;
+    color: #7a3145;
+  }
+
+  .header-menu-item:focus {
+    background-color: #7a3145;
+    color: #fbfbfb;
+  }
+
+  .header-shop-btn:hover {
+    background-color: #622133;
+  }
+
+  .header-shop-btn:focus {
+    background-color: #7a3145;
+    color: #fbfbfb;
+  }
+
   .header-shop-btn {
     font-weight: 600;
     font-size: 18px;
