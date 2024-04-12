@@ -85,11 +85,8 @@
   line-height: 1.29;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  /* display: flex; */
 }
 
-/* === MENU LINKS === */
-/* IMHO, HOVER doesn't make sense in the mobile version */
 .mobile-menu-link:hover {
   background-color: #fbfbfb;
   color: #7a3145;
@@ -100,7 +97,6 @@
   color: #fbfbfb;
 }
 
-/* === "SHOP NOW" BUTTON=== */
 .mobile-shop-now:hover {
   color: rgba(122, 49, 69, 0.7);
 }
@@ -153,7 +149,6 @@
     letter-spacing: -0.01em;
   }
 
-  /* === MENU LINKS === */
   .mobile-menu-link:hover {
     background-color: #fbfbfb;
     color: #7a3145;
@@ -164,7 +159,6 @@
     color: #fbfbfb;
   }
 
-  /* === "SHOP NOW" BUTTON=== */
   .mobile-shop-now:hover {
     background-color: #622133;
   }
@@ -200,6 +194,7 @@
     opacity: 0;
     pointer-events: none;
   }
+
   .backdrop {
     display: none;
     visibility: hidden;

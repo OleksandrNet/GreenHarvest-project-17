@@ -1,5 +1,7 @@
 .header {
+  /* temporary background. need "hero" to del it */
   background-color: #576f35;
+  /*  */
   top: 20px;
   left: 0;
 }
