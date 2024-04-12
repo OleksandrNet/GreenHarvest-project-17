@@ -9,11 +9,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-
   z-index: 9;
 }
 
