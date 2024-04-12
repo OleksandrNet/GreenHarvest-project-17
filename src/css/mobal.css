@@ -113,4 +113,10 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .mobile-menu {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
 }
