@@ -230,17 +230,20 @@
     min-width: 751px;
     max-height: 193px;
   }
+
   .end-wrapper {
     display: flex;
     flex-direction: row;
     gap: 24px;
     margin-bottom: 100px;
   }
+
   .your-order-form {
     max-width: 529px;
     min-height: 534px;
     margin: 0;
   }
+
   .your-order-soc-network {
     margin: 0;
     max-width: 527px;
