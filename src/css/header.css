@@ -68,6 +68,7 @@
   .icon-logo-text {
     width: 168px;
     height: 15px;
+    padding-top: 2px;
   }
 
   .icom-mobile-menu {
@@ -77,10 +78,6 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .icon-logo-text {
-    padding-top: 2px;
-  }
-
   .icom-mobile-menu {
     display: none;
   }
