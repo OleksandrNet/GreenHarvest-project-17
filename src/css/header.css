@@ -1,20 +1,9 @@
-.container {
-}
-
 .header {
+  /* temporary background. need "hero" to del it */
   background-color: #576f35;
-  /* width: 100%; */
-  /* position: absolute; */
+  /*  */
   top: 20px;
   left: 0;
-  /* display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  overflow: auto; */
-}
-
-.header-container {
 }
 
 .icon-logo {
@@ -50,10 +39,8 @@
   display: none;
 }
 
-/* ========== MEDIA =========== */
 @media only screen and (min-width: 768px) {
   .container {
-    /* max-width: 1279px; */
   }
 
   .header-navigation {
@@ -86,13 +73,22 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .icon-logo-text {
+    padding-top: 2px;
+  }
+
   .icom-mobile-menu {
+    display: none;
+  }
+
+  .mobile-btn {
     display: none;
   }
 
   .header-menu-wrap {
     display: flex;
     gap: 20px;
+    align-items: center;
   }
   .header-menu-list {
     display: flex;
@@ -111,7 +107,23 @@
     padding: 12px;
   }
 
-  .header-menu-link {
+  .header-menu-item:hover {
+    background-color: #fbfbfb;
+    color: #7a3145;
+  }
+
+  .header-menu-item:focus {
+    background-color: #7a3145;
+    color: #fbfbfb;
+  }
+
+  .header-shop-btn:hover {
+    background-color: #622133;
+  }
+
+  .header-shop-btn:focus {
+    background-color: #7a3145;
+    color: #fbfbfb;
   }
 
   .header-shop-btn {
@@ -124,8 +136,5 @@
     border-radius: 30px;
     padding: 16px 32px;
     background: #7a3145;
-  }
-
-  .header-shop-now {
   }
 }
