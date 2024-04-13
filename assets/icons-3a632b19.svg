@@ -11,9 +11,11 @@
 <path fill="#fbfbfb" style="fill: var(--color1, #fbfbfb)" d="M17.591 0.224h-4.009c-1.237 0-2.24 0.983-2.24 2.195v3.929c0 1.212 1.003 2.195 2.24 2.195h4.009c1.237 0 2.24-0.984 2.24-2.196v-3.929c0-1.212-1.003-2.195-2.24-2.195z"></path>
 <path fill="#fbfbfb" style="fill: var(--color1, #fbfbfb)" d="M29.044 11.926h-4.010c-1.237 0-2.24 0.983-2.24 2.195v3.929c0 1.212 1.003 2.195 2.24 2.195h4.009c1.237 0 2.24-0.983 2.24-2.195v-3.929c0-1.212-1.003-2.195-2.24-2.195z"></path>
 </symbol>
-<symbol id="icon-open-menu" viewBox="0 0 42 32">
-<path fill="none" stroke="#fbfbfb" style="stroke: var(--color1, #fbfbfb)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.8" d="M3.733 3.2h34.133M3.733 16h17.067M3.733 28.8h34.133"></path>
+
+<symbol id="icon-open-menu" viewBox="0 0 43 32">
+<path fill="none" stroke="#fbfbfb" style="stroke: var(--color1, #fbfbfb)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="5.3333" d="M3.555 2.667h35.556M3.555 16h17.778M3.555 29.333h35.556"></path>
 </symbol>
+
 <!--  -->
 <svg id="icon-logo-text" width="146" height="12" viewBox="0 0 146 12" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path d="M6.30096 12C2.5132 12 0 9.648 0 5.984C0 2.4 2.4773 0 6.2112 0C9.35271 0 11.5607 1.648 11.8839 4.128H9.2809C9.02958 2.704 7.82683 1.904 6.2112 1.904C3.94932 1.904 2.60296 3.536 2.60296 5.984C2.60296 8.672 4.11088 10.096 6.30096 10.096C8.20381 10.096 9.42451 9.136 9.55017 7.696V7.536H6.04964V5.744H11.9736V7.216C11.8659 10.08 9.60403 12 6.30096 12Z" fill="#FBFBFB" />
