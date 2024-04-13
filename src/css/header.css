@@ -19,6 +19,7 @@
 .icom-mobile-menu {
   width: 32px;
   height: 32px;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .header-navigation {
@@ -39,10 +40,11 @@
   display: none;
 }
 
-@media only screen and (min-width: 768px) {
-  .container {
-  }
+.mobile-btn {
+  display: block;
+}
 
+@media only screen and (min-width: 768px) {
   .header-navigation {
     padding-top: 32px;
     padding-bottom: 32px;
