@@ -20,7 +20,7 @@
     />
     
     <script type="module" crossorigin src="/GreenHarvest-project-17/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/GreenHarvest-project-17/assets/index-7e99ccaf.css">
+    <link rel="stylesheet" href="/GreenHarvest-project-17/assets/index-23ff7cae.css">
   </head>
   <body>
     <!-- Віктор -->
@@ -334,7 +334,7 @@
       <!-- Андрій Т -->
       <section class="your-order-section">
   <div class="container container-your-order">
-    <div class="your-order-top">
+    <div class="your-order-top your-order-top-wrap">
       <h2 class="your-order-title">
         Fresh <span class="your-order-title-span">Harvest</span> Box has got you
         covered
@@ -345,6 +345,76 @@
         today and start enjoying the best that nature has to offer!
       </p>
     </div>
+    <div class="end-wrapper">
+      <form class="your-order-form">
+        <p class="your-order-form-title">
+          Ordering <span>from us</span> is quick and easy! Fill out
+          <span>the form</span> below and we will contact you !
+        </p>
+        <input
+          class="your-order-form-input"
+          name="user-name"
+          type="text"
+          placeholder="Full Name"
+          required
+        />
+        <input
+          class="your-order-form-input"
+          name="user-email"
+          type="email"
+          placeholder="Email"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          required
+        />
+        <textarea
+          class="your-order-form-text"
+          name="user-comment"
+          placeholder="Comment"
+        ></textarea>
+        <button class="your-order-form-btn" type="submit">Send</button>
+      </form>
+      <div class="your-order-soc-network">
+        <picture>
+          <source
+            srcset="/GreenHarvest-project-17/assets/order-smoothie-2x-50c414fa.jpg 2x, /GreenHarvest-project-17/assets/order-smoothie-ce0429e8.jpg 1x"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="/GreenHarvest-project-17/assets/order-smoothie-tab-2x-d37268f1.jpg 2x, /GreenHarvest-project-17/assets/order-smoothie-tab-87b19fe1.jpg 1x"
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="/GreenHarvest-project-17/assets/order-smoothie-mob-2x-476637b2.jpg 2x, /GreenHarvest-project-17/assets/order-smoothie-mob-8d7b47a3.jpg 1x"
+            media="(min-width:320px)"
+          />
+          <img
+            class="your-order-soc-network-img"
+            src="../img/Your-order/order-smoothie-tab.jpg"
+            alt="making smoothies"
+            width="528"
+            height="273"
+          />
+        </picture>
+        <p class="soc-network-title">Follow us on our social networks:</p>
+        <ul class="soc-network-link">
+          <li>
+            <a href="https://www.instagram.com/goitclub/" target="_blank"
+              >instagram</a
+            >
+          </li>
+          <li>/</li>
+          <li>
+            <a href="https://www.facebook.com/goITclub/" target="_blank"
+              >facebook</a
+            >
+          </li>
+          <li>/</li>
+          <li>
+            <a href="https://www.youtube.com/c/GoIT" target="_blank">youtube</a>
+          </li>
+        </ul>
+      </div>
+
     <form class="your-order-form">
       <p class="your-order-form-title">
         Ordering <span>from us</span> is quick and easy! Fill out
