@@ -1,6 +1,9 @@
 .how-it {
   background-color: #7a3145;
 }
+.how-it-works {
+  display: flex;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -82,6 +85,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .order-text-list {
   font-family: var(--font-family);
   font-weight: 500;
