@@ -174,7 +174,6 @@
 .your-order-form-title span:nth-child(2) {
   color: #576f35;
 }
-
 @media screen and (min-width: 768px) {
   .your-order-top {
     margin-top: 100px;
@@ -184,17 +183,14 @@
     max-height: 277px;
     gap: 25px;
   }
-
   .your-order-title {
     font-size: 64px;
     line-height: 1;
   }
-
   .your-order-title-text {
     font-size: 16px;
     line-height: 1.25;
   }
-
   .your-order-form {
     margin: auto;
     padding: 50px 100px;
