@@ -10,7 +10,7 @@
 
 .vegetable-title {
   font-family: 'Inter Tight', sans-serif;
-  font-size: 42px;
+  font-size: 42px; /*calc(24px + (48 - 24) * ((100vw - 320px) / (375 - 320)));*/
   font-weight: 600;
   line-height: 1.04;
   letter-spacing: -0.01em;
@@ -104,6 +104,7 @@
     font-size: 64px;
     line-height: 1;
     margin-bottom: 50px;
+    width: 508px;
   }
 
   .vegetable-description {
@@ -138,7 +139,6 @@
   }
 
   .vegetable-title {
-    width: 508px;
     margin-bottom: 25px;
   }
 
