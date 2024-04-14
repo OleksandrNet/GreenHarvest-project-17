@@ -17,9 +17,11 @@
   overflow: hidden;
 }
 .how-it-works-img {
-  max-width: 375px;
   margin: 0 auto;
   padding: 40px 20px;
+  border-radius: 30px;
+  width: 335px;
+  height: 450px;
 }
 .order {
   background-color: #576f35;
@@ -137,6 +139,7 @@
   .how-it {
     display: flex;
     max-width: 1280px;
+    margin: 0 auto;
   }
   .how-it-works {
     padding: 100px;
