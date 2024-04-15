@@ -1,7 +1,5 @@
 .header {
-  /* temporary background. need "hero" to del it */
   background-color: #576f35;
-  /*  */
   top: 20px;
   left: 0;
 }
@@ -115,6 +113,7 @@
     border: 1px solid rgba(251, 251, 251, 0.4);
     border-radius: 12px;
     padding: 12px;
+    transition: background-color 300ms ease, color 300ms ease;
   }
 
   .header-menu-item:hover {
@@ -146,5 +145,6 @@
     border-radius: 30px;
     padding: 16px 32px;
     background: #7a3145;
+    transition: background-color 300ms ease, color 300ms ease;
   }
 }
