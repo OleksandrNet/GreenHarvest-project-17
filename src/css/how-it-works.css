@@ -7,9 +7,13 @@
   margin: 0 auto;
 }
 .how-it-works {
-  /* display: flex; */
+  display: flex;
   padding-top: 40px;
   padding-bottom: 40px;
+  justify-content: center;
+}
+.img-section {
+  margin: auto;
 }
 .visually-hidden {
   position: absolute;
@@ -34,6 +38,7 @@
   background-color: #576f35;
   margin: 0 auto;
   padding: 80px 20px;
+  width: 100%;
 }
 .order-title {
   font-family: 'Inter Tight', sans-serif;
@@ -44,6 +49,7 @@
   text-transform: uppercase;
   color: #fbfbfb;
   margin: 20px auto;
+  width: 335px;
 }
 .order-span {
   color: rgba(251, 251, 251, 0.3);
@@ -53,6 +59,9 @@
   font-size: 14px;
   line-height: 129%;
   color: #fbfbfb;
+  width: 335px;
+  margin: auto;
+  margin-bottom: auto;
   margin-bottom: 40px;
 }
 .order-list {
@@ -67,7 +76,7 @@
 .order-list-item {
   border-radius: 15px;
   padding: 12px 27px 12px 24px;
-  width: 335px;
+  /* width: 335px; */
   height: 76px;
   background-color: #fbfbfb;
   display: flex;
@@ -131,11 +140,16 @@
     line-height: 100%;
     letter-spacing: -0.01em;
     text-transform: uppercase;
+    width: 450px;
   }
   .order-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 125%;
+    width: 450px;
+    margin: auto;
+    margin-bottom: auto;
+    margin-bottom: 40px;
   }
   .order-list {
     width: 450px;
