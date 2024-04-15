@@ -1,5 +1,7 @@
 .your-order-section {
   background-color: #7a3145;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .container-your-order {
@@ -14,7 +16,7 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 29px;
-  margin-top: 80px;
+  /* margin-top: 80px; */
   margin-bottom: 40px;
 }
 
@@ -136,7 +138,7 @@
   max-width: 335px;
   min-height: 465px;
   background: #576f35;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
 }
 
 .your-order-soc-network-img {
@@ -175,12 +177,16 @@
   color: #576f35;
 }
 @media screen and (min-width: 768px) {
+  .your-order-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
   .your-order-top {
-    margin-top: 100px;
+    /* margin-top: 100px; */
     margin-bottom: 50px;
     padding: 0;
     min-width: 640px;
-    max-height: 277px;
+    /* max-height: 277px; */
     gap: 25px;
   }
   .your-order-title {
@@ -243,7 +249,7 @@
     font-size: 16px;
   }
   .end-wrapper {
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
   }
 }
 
@@ -251,7 +257,7 @@
   .your-order-top {
     margin-bottom: 100px;
     min-width: 751px;
-    max-height: 193px;
+    /* max-height: 193px; */
   }
 
   .end-wrapper {
