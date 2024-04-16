@@ -118,12 +118,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 100%;
+  max-width: 295px;
   height: 50px;
   background-color: #576f35;
   border: 1px solid gray;
   border-radius: 30px;
-  padding: 16px 129px;
+  padding: 5% 45%;
+  /* padding: 16px 129px; */
   font-size: 14px;
   font-weight: 600;
   line-height: 1.29;
